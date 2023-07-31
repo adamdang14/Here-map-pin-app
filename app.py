@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template,  redirect, flash, se
 from models import db, connect_db, Pin
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql:///map_db'  
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://tvksqwlv:iGIaXrY2bSMe0JAv_3p_l3mHYuOYZDoB@stampy.db.elephantsql.com/tvksqwlv'  
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_ECHO'] = True
 
